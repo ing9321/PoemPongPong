@@ -1,0 +1,75 @@
+
+#caseOfLogin{
+	width:108px;
+	height:44px;
+	position:absolute;
+	z-index:20;
+	top:45px;
+	left:1748px;
+	display: none;
+}
+
+#caseOfLogin input{
+	outline:0;	
+}
+
+#caseOfLogout{
+	width:251px;
+	height:58px;
+	position:absolute;
+	z-index:20;
+	top:38px;
+	left:1605px;
+	display: none;
+}
+#logoutBtnDiv{
+	width:108px;
+	height:44px;
+	float:right;
+	margin-top:7px;
+	outline:0;
+	cursor:pointer;
+}
+#logoutBtn{
+	width:108px;
+	height:44px;
+	background-image:url(../../images/logoutButton.png);
+	border:0;
+	outline:0;
+	cursor:pointer;
+	background-color:transparent;
+	outline:0;
+}
+#myPageDiv{
+	width:58px;
+	height:58px;
+	float:right;
+	position:relative;
+	margin-right:16px;
+	cursor:pointer;
+}
+#myPage{
+	width:58px;
+	height:58px;
+	background-image:url(../../images/myPageImage.png);
+	border:0;
+	background-color:transparent;
+	outline:0;
+	cursor:pointer;
+}
+#contactUsDiv{
+	width:53px;
+	height:47px;
+	float:left;
+	margin-top:5px;
+	cursor:pointer;
+}
+#contactUs{
+	width:53px;
+	height:47px;
+	background-image:url(../../images/letterImage.png);
+	border:0;
+	background-color:transparent;
+	outline:0;
+	cursor:pointer;
+}

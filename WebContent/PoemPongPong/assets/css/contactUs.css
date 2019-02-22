@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.main-title{
+    font-size: 70px;
+    font-weight: bold;
+    color: #ED8080;
+    text-align: center;
+    margin-bottom:70px;
+}
+
+.information{
+	color: #ED8080;
+	font-size:30px;
+    margin-top: 20px;
+}
+
+.information-text{
+    width: 100%;
+	padding: 12px;
+	font-size:25px;
+	color:#ED8080;
+    border: 1px solid #FF9999;
+    background-color: transparent;
+    border-radius: 2px;
+    box-sizing: border-box;
+    outline: 0;
+    
+    margin: 6px 0 10px;
+}
+
+.contents{
+    min-height: 300px;
+    resize: none;
+}
+
+.btnSend{
+	width: 125px;
+	height: 51px;
+	background-color: transparent;
+	background-image: url("../../images/sendBtn.png");
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    outline: 0;
+    border: none;
+    margin:40px 0 0 510px;
+}

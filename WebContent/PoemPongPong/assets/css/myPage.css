@@ -1,0 +1,88 @@
+@CHARSET "UTF-8";
+#bannerContainer{
+	background-image:url(../../images/bannerPPP.jpg);
+		max-width:1920px;
+		min-height:1210px;
+		background-repeat:no-repeat;
+		z-index:-5;
+		position:relative;
+}
+
+#logoGoHome{
+		position:absolute;
+		top:30px;
+		left:833px;
+		width:255px;
+		height:255px;
+		z-index:3;
+		cursor:pointer;
+	}
+
+#myPageContainer{
+	position: absolute;
+	width:850px;
+   	height:500px;
+   	left:510px;
+   	top:500px;
+}
+
+#letterMyPage{
+	text-align: center;
+	height: 60px;
+   	font-size:52px;
+   	font-weight: bold;
+   	color:#ED8080;
+}
+
+.myInfo{
+	border: 7px double #FF9999;
+	margin-top: 100px;
+	width: 850px;
+}
+
+#myProfile {
+	width: 105px;
+	height: 105px;
+	display: inline-block;
+	float: left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 50px;
+}
+
+#myInfoText{
+	display: inline-block;
+	width: 600px;
+	
+}
+
+.divInfoText{
+	height: 30px;
+	margin: 40px 0;
+	
+}
+
+.labelInfo{
+	font-color: #ED8080;
+	color: #ED8080;
+	font-size:25px;
+}
+
+
+#divModifyInfo {
+	margin: 80px auto;
+	width: 400px;
+	text-align: center;
+}
+
+#modifyInfoBtn {
+	width: 337px;
+	height: 49px;
+	background-image: url('../../images/editInfoButton.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: transparent;
+	border: none;
+	
+}
+

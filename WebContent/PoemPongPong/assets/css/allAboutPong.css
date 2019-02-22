@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+#allAboutPong{
+	width:1100px;
+	height:2484px;
+	position:absolute;
+	z-index:5;
+	background-size:contain;
+	background-repeat: no-repeat;
+	left:700px;
+	top:550px;
+	background-image: url(../../images/allAboutPong.jpg);
+}
+
+.main-title{
+    font-size: 70px;
+    font-weight: bold;
+    color: #ED8080;
+    text-align: center;
+    margin-left:50px;
+}
+

@@ -1,0 +1,164 @@
+@CHARSET "UTF-8";
+#bannerContainer{
+	background-image:url(../../images/bannerPPP.jpg);
+		max-width:1920px;
+		min-height:1210px;
+		background-repeat:no-repeat;
+		z-index:-5;
+		position:relative;
+}
+
+#logoGoHome{
+		position:absolute;
+		top:30px;
+		left:833px;
+		width:255px;
+		height:255px;
+		z-index:3;
+		cursor:pointer;
+	}
+
+#modifyContainer{
+	position: absolute;
+	width:850px;
+   	height:850px;
+   	left:600px;
+   	top:500px;
+}
+
+.letterModify {
+	text-align: center;
+	height: 60px;
+   	font-size:52px;
+   	font-weight: bold;
+   	color:#ED8080;
+   	margin-bottom: 70px;
+}
+.informationList {
+	margin-top: 30px;
+}
+
+._blank{
+	height:51px;
+	color: #FF9999;
+	margin-top: 10px;
+}
+
+.informIcon {
+	display: inline-block;
+	width: 22px;
+	height: 23px;
+	margin-right: 5px;
+	margin-top: 10px;
+	background-image: url('../../images/joinPong.png');
+}
+
+.informLabel {
+	font-size: 30px;
+	color: #ED8080;
+}
+
+.informSpan{
+	font-size: 18px;
+	color: #FF9999;
+	margin-left: 30px;
+}
+
+.informInputText {
+	width: 256px;
+	height: 35px;
+	margin-left: 30px;
+	background-color: #FF9999;
+	border: none;
+	color: white;
+	outline: 0;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+#btnChangePwd {
+	margin-left: 30px;
+	width: 137px;
+	height: 40px;
+	border: none;
+	background-image: url('../../images/changePwdBtn.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color:transparent;
+	cursor: pointer;
+}
+
+#informRadio {
+	margin-left: 30px;
+	height: 200px;
+}
+
+.informRadionPhoto {
+	margin: 20px;
+}
+.photoPongs {
+	width: 105px;
+	height: 105px;
+	display: inline-block;
+	margin: 10px;
+}
+#photoPong1 {
+	background-image: url('../../images/pong1.png');
+}
+#photoPong2 {
+	background-image: url('../../images/pong2.png');
+}
+#photoPong3 {
+	background-image: url('../../images/pong3.png');
+}
+#photoPong4 {
+	background-image: url('../../images/pong4.png');
+}
+
+#informRadioText {
+	display: inline-block;
+}
+#textPong1 {
+	margin-left: 55px;
+}
+#textPong2 {
+	margin-left: 115px;
+}
+#textPong3 {
+	margin-left: 110px;
+}
+#textPong4 {
+	margin-left: 105px;
+}
+
+#informBtn {
+	text-align: center;
+	margin: 50px 0 150px;
+}
+#modifyCancelBtn {
+	width: 128px;
+	height: 46px;
+	border: none;
+	background-image: url('../../images/korCancelBtn.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color:transparent;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+#modifySubmit {
+	width: 128px;
+	height: 46px;
+	border: none;
+	background-image: url('../../images/korConfirmBtn.png');
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-color:transparent;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+#divFooter {
+	margin-bottom: 300px;
+}

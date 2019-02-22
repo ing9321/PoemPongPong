@@ -1,0 +1,341 @@
+
+/*        내용 출력 부분 설정*/
+#outputDiv {
+    max-width: 1130px;
+    width: 100%;
+	padding-right: 2%;
+}
+
+/* 메인 블럭 */
+#relayPoemMainDiv {
+	max-width: 1130px;
+	width: 100%;
+}
+/*        게시판 이름*/
+#titlePong {
+    font-size: 70px;
+    font-weight: bold;
+    color: #ED8080;
+    text-align: center;
+}
+
+/*        릴레이시 현재 작성중인 메인 출력부*/
+#relayPoemMain {
+    margin-top: 80px;
+    height: 750px;
+    background-image: url('../../images/relayPoem.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*        번호*/
+#indexPong {
+    font-size: 30px;
+    float: right;
+    padding: 15px 10px 0 0;
+    color: #FF9999;
+}
+
+/*  	주제*/
+#subjectPong {
+	padding-top: 70px;
+	font-size: 50px;
+	text-align: center;
+	color: #ED8080;
+}
+
+/*  	내용*/
+#mainPong {
+	font-size: 35px;
+	color: #ED7171;
+	line-height:66px;
+	margin: 60px 40px 40px;
+	text-align:center;
+}
+/*  릴레이 시 댓글 부분*/
+#relayPoemReplyDiv {
+    margin-bottom: 20px;
+}
+
+/* 으뜸 , 버금 퐁퐁 타이틀 */
+.bestReplyTitle {
+	margin: 70px 0px 30px 0px;
+	text-align: center;
+}
+#bestReplyTitle {
+	background-image: url('../../images/bestReplyTitle.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 263px;
+	height: 43px;
+	display: inline-block;
+	
+}
+
+.basicReplyTitle {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#basicReplyTitle {
+	background-image: url('../../images/replyTitle.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 263px;
+	height: 43px;
+	display: inline-block;
+	
+}
+
+/*  	릴레이 시 댓글 출력 부분*/
+.replyTable {
+    max-width: 1300px;
+    width:100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 20px;
+    color: #ED8080;
+}
+.replyTable td{
+	border-bottom: 1px solid pink;
+	padding: 5px;
+}
+
+.tdFirst{
+	width: 120px;
+}
+.tdSecond{
+	width: 170px;
+}
+.tdForth{
+	width: 100px;
+}
+.tdFifth{
+	width: 80px;
+}
+.tdWriterVer{
+	width: 150px;
+}
+
+#replyBestTable {
+	margin-bottom: 100px;
+}
+
+#replyRecentTable .tdSecond {
+	color: black;
+}
+#replyRecentTable .tdThird {
+	color: black;
+}
+
+.btnLike {
+	width: 34px;
+	height: 34px;
+ 	background-image:url('../../images/dislikeIt.png');
+	background-position: center;
+	background-size: cover;
+	background-color: transparent;
+	border: none;
+}
+
+.btncss {
+	margin: 5px 5px;
+    padding: 5px 10px;
+	font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #FF9999;
+}
+.btncss:hover {
+	background-color:#f0bdb4;
+}
+.btncss:active {
+	position:relative;
+	top:1px;
+}
+
+/* 댓글 수정할 때 input text */
+.editTextReply {
+	width: 400px;
+	font-size: 20px;
+	color: #FF9999;
+}
+
+/* 댓글 페이징 */
+.replyPaginate {
+    margin: 40px 0px;
+    text-align: center;
+    font-size: 28px;
+}
+
+/* 릴레이 시 댓글 입력 부분 */
+#writeReplyDiv {
+	text-align: center;
+	margin-top: 20px;
+}
+#newReply {
+	width: 500px;
+	height:50px;
+	font-size: 25px;
+	background-color: transparent;
+	color: #ED8080;
+	border: 2px solid #FF9999;
+	outline: 0;
+	margin-right: 10px;
+	padding-left: 20px;
+}
+#btnNewReply {
+	position: relative;
+	top: 15px;
+	width: 56px;
+	height: 56px;
+	border: none;
+	background-color: transparent;
+	background-image: url('../../images/goBtn.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+}
+
+/*        릴레이 시 페이징 출력 부분*/
+#thumbnailBox {
+    margin-top: 150px;
+    text-align: left;
+    width: 100%;
+    height: 250px;
+}
+/*  지난 릴레이 시 하나 당 div*/
+.pastRelayPoem {
+    width: 31%;
+    height: 246px;
+    float: left;
+    border: 2px solid #F4DCDC;
+    background-image: url('../../images/background4.jpeg');
+    background-size:contain;
+    margin-right: 1%;
+    cursor: pointer;
+}
+.pastRelayPoem div {
+	padding: 0 10px 0 10px;
+}
+.thumIndex {
+	text-align: right;
+	font-size: 12px;
+}
+.thumTitle {
+	font-size: 25px;
+	text-align:center;
+	color:#ED8080;
+	
+}
+.thumContents {
+	font-size: 18px;
+	float:left;
+	margin-left:10px;
+	color:#C47070;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	width:300px;
+	height:145px;
+}
+
+/*  페이징*/
+.paginate {
+    margin: 40px 0px;
+    text-align: center;
+    font-size: 28px;
+}
+.atagcss {
+	color: #f59a93;
+	text-decoration: none;
+	decoration: none;
+}
+.atagcss:visited, .atagcss:link {
+	color: #f59a93;
+}
+
+.btnPage{
+	height: 28px;
+}
+
+/* modal background */
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.InnerContent{
+	background-image: url("../../images/background4.jpeg");
+    box-sizing: border-box;
+    margin: 10px;
+    border: 4px solid #FFF0F0;
+    padding:20px;
+}
+
+.modal-content{
+    background-color: #fefefe;
+    box-sizing: border-box;
+    margin: 15% auto;
+    padding: 1%;
+    border: 1px solid #E86767;
+    width: 35%;
+}
+
+.modal-close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin:-20px -10px 0;
+}
+
+.subDiv{
+	color:#FF9999;
+	font-size:20px;
+	text-align:center;
+}
+
+.pastRelayTitle{
+	font-size:40px;
+	color:#ED8080;
+	text-align:center;
+	margin:10px 0 30px 0;
+}
+
+.pastRelayPoets{
+	font-size:20px;
+	float:right;
+	color:#FF9999;
+	margin-right:20px;
+	font-weight:bold;
+}
+
+.pastRelayContents{
+	color:#FF9999;
+	font-size:25px;
+	margin:30px 0 30px 20px;
+}
+
+.modal-close:hover, .modal-close:focus{
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#divFooter {
+	margin-bottom: 300px;
+}
+.thumIndex{
+	font-size:20px;
+	color:#ED8080;
+}

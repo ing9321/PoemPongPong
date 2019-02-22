@@ -1,0 +1,212 @@
+
+@charset "UTF-8";
+
+@font-face{
+	font-family: goyang;
+	src: url('../fonts/Goyang.woff') format('woff');
+}
+body {
+	font-family: goyang;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ 
+/* 전체 컨테이너 : 내용넣을거 */
+#container {
+    /* border: 1px solid black; */
+/*    max-width: 1900px;*/
+    width: 1130px;
+    /*margin: auto;*/
+    padding:0;
+    position:absolute;
+    float:left;
+    top:342px;
+    left:618px;
+/*    z-index:1;*/
+}
+
+input[type="text"]{
+	font-family: goyang;
+	font-weight: normal;
+	outline: 0;
+}
+
+input[type="submit"]{
+	cursor: pointer;
+	outline: 0;
+	font-family: goyang;
+	font-weight: normal;
+}
+
+input[type="button"]{
+	cursor: pointer;
+	font-family: goyang;
+	font-weight: normal;
+	outline: 0;
+}
+
+textarea{
+	font-family: goyang;
+	font-weight: normal;
+	outline: 0;
+}
+
+#left-bar{
+    position: fixed;
+    top: 0;
+    left: -400px;
+    height: 100%;
+    z-index: 9999;
+    width: 400px;
+    background-color: white;
+    transition-duration: 0.2s;
+    timing-function: ease-in-out;
+    
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(163,79,79,1);
+    -moz-box-shadow: 0px 0px 35px 0px rgba(163,79,79,1);
+    box-shadow: 0px 0px 35px 0px rgba(163,79,79,1);
+}
+
+#left-btn{
+	top: -10px;
+	left: 399px;
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	border: none;
+    color: transparent;
+	
+    background-color: transparent;
+	background-image: url("../../images/menuBar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+	width: 63px;
+	height: 280px;
+
+	outline: 0;
+}
+
+
+.menu-content{
+    margin-left: 60px;
+    margin-top: 200px;
+    color: #A34F4F;
+}
+
+.menu-content ul{
+    list-style: none;
+}
+
+.menu-content ul>li{
+    padding: 10px;
+}
+
+.subMenu li{
+    padding: 3px 10px !important;
+}
+
+.menu-pong{
+    bottom: 0px;
+    right: 20px;
+    width: 360px;
+    height: 340px;
+    position: absolute;
+    z-index: -3;
+    
+    
+    background-color: transparent;
+	background-image: url("../../images/menuPong.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.spanFontS{
+    font-size: 20px;
+}
+
+.spanFontM{
+    font-size: 25px;
+}
+
+.spanFontL{
+    font-size: 30px;
+}
+
+a:link {text-decoration: none; color: #A34F4F;}
+a:visited {text-decoration: none; color: #A34F4F;}
+a:active {text-decoration: none; color: #A34F4F;}
+a:hover {text-decoration: none; color: #A34F4F;}
+
+/* 공통 적용 */
+
+.prevBtn{
+    width: 20px;
+    height: 28px;
+    
+	margin: 0;
+	padding: 0;
+	border: none;
+    outline: none;
+    
+    background-color: transparent;
+	background-image: url("../../images/prevBtn.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nextBtn{
+    width: 20px;
+    height: 28px;
+    
+	margin: 0;
+	padding: 0;
+	border: none;
+    outline: none;
+    
+    background-color: transparent;
+	background-image: url("../../images/nextBtn.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.lastPrevBtn{
+    width: 35px;
+    height: 28px;
+    
+	margin: 0;
+	padding: 0;
+	border: none;
+    outline: none;
+    
+    background-color: transparent;
+	background-image: url("../../images/lastPrevBtn.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.lastNextBtn{
+    width: 35px;
+    height: 28px;
+    
+	margin: 0;
+	padding: 0;
+	border: none;
+    outline: none;
+    
+    background-color: transparent;
+	background-image: url("../../images/lastNextBtn.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

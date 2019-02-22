@@ -1,0 +1,88 @@
+#container{
+    width: 1130px;
+    margin: auto;
+    color: #A34F4F;
+}
+.main-title{
+    font-size: 70px;
+    font-weight: bold;
+    color: #ED8080;
+    text-align: center;
+    margin-bottom:60px;
+}
+.bestPoem-addon{
+    margin-top: 3%;
+    margin-bottom: 3%;
+	text-align: center;
+}
+
+.bestPoem-info{
+    width: 1045px;
+    background-color: transparent;  
+    border-style: solid;  
+    border-width: 2px;  
+    border-color: #FF9999; 
+    box-sizing: border-box;
+    outline: 0;
+    background-repeat: repeat;
+    background-size: contain;
+    margin:0 42.5px 200px;    
+    padding: 7%;
+}
+
+.divCenter{
+    text-align: center;
+}
+
+.spanTitle{
+    font-size: 53px;
+    border-bottom: 1px solid #A34F4F;
+}
+
+#bestPoem-subject_Name{
+    font-size: 25px;
+    margin-bottom:30px;
+}
+
+.bestPoem-profile{
+	width: 300px;
+    height: 100px;
+	padding: 3%;
+}
+
+.thumbnail-left{
+	width: 60%;
+	float: left;
+	font-size: 25px;
+    color: #ED8080;
+    margin-top:15px;
+}
+
+.thumbnail-left div{
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow:hidden
+}
+
+#bestPoem-contents{
+    font-size: 37px;
+    margin:150px 0 40px;
+    text-align:center;
+    color:#ED8080;
+}
+
+#bestPoem-uploadDate{
+    font-size: 53px;
+    font-weight:bold;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#bestPoem-memberPhoto{
+	width: 40%;
+    height: 100px;
+	float: right;
+	background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

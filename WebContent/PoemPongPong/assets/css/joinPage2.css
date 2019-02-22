@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+#informRadio {
+	margin-left: 30px;
+	height: 200px;
+}
+
+#logoGoHome{
+		position:absolute;
+		top:30px;
+		left:833px;
+		width:255px;
+		height:255px;
+		z-index:3;
+		cursor:pointer;
+	}
+
+.informRadionPhoto {
+	margin: 20px;
+}
+.photoPongs {
+	width: 105px;
+	height: 105px;
+	display: inline-block;
+	margin: 10px;
+}
+#photoPong1 {
+	background-image: url('../../images/pong1clicked.png');
+}
+#photoPong2 {
+	background-image: url('../../images/pong2.png');
+}
+#photoPong3 {
+	background-image: url('../../images/pong3.png');
+}
+#photoPong4 {
+	background-image: url('../../images/pong4.png');
+}
+
+#informRadioText {
+	display: inline-block;
+}
+#textPong1 {
+	margin-left: 55px;
+}
+#textPong2 {
+	margin-left: 115px;
+}
+#textPong3 {
+	margin-left: 110px;
+}
+#textPong4 {
+	margin-left: 105px;
+}

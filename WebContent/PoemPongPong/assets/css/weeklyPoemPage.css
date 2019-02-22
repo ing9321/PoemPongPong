@@ -1,0 +1,273 @@
+
+.main-title{
+    font-size: 70px;
+    font-weight: bold;
+    color: #ED8080;
+    text-align: center;
+    margin-bottom:60px;
+}
+
+.weekly-subject{
+    font-size: 30px;
+    text-align: center;
+}
+
+.divSearch{
+	text-align: right;
+    margin-right: 4%;
+    margin-bottom: 1%;
+    height: 56px;
+}
+
+.textSearch{
+	width: 250px;
+    padding: 12px;
+    margin-right: 10px;
+    border: 3px solid #FF9999;
+    background-color: transparent;
+    border-radius: 2px;
+    box-sizing: border-box;
+    outline: 0;
+    color: #ED8080;
+    position: relative;
+    bottom: 15px;
+}
+
+.btnSearch{
+	width: 43px;
+	height: 43px;
+	background-color: transparent;
+	background-image: url("../../images/goBtn.png");
+	background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    outline: 0;
+    border: none;
+}
+
+.thumbnail-poem{
+	width: 27%;
+	margin-bottom: 3%;
+	margin-left: 3%;
+	margin-right: 3%;
+	float: left;
+}
+
+.thumbnail-wrap{
+	height: 300px;
+	padding: 10%;
+	
+    background-color: transparent;  
+    border-style: solid;  
+    border-width: 1px;  
+    border-color: #FF9999; 
+    box-sizing: border-box;
+    outline: 0;
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.thumbnail-contents{
+    font-size: 18px;
+	float:left;
+	margin:10px;
+	color:#C47070;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width:222px;
+	height:180px;
+}
+
+.thumbnail-title{
+  	font-size: 25px;
+	text-align:center;
+	color:#C47070;
+	margin-bottom:20px;
+}
+
+.thumbnail-info{
+	height: 150px;
+	padding: 3%;
+	margin-top: 15px;
+}
+
+.thumbnail-info form{
+	float: left;
+}
+
+.thumbnail-left{
+	width: 60%;
+	float: left;
+	font-size: 25px;
+    color: #ED8080;
+}
+
+.thumbnail-left div{
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow:hidden
+}
+
+.thumbnail-right{
+	width: 40%;
+    height: 100px;
+	float: right;
+	background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+	
+}
+
+.weeklyPoem-container{
+    width: 100%;
+}
+
+.weeklyPoem-btn{
+    margin: 5px 5px;
+    padding: 5px 10px;
+	font-size: 17px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #FF9999;
+}
+    
+.paginate{
+    width: 600px;
+    text-align: center;
+    position: absolute;
+    top: 1600px;
+    margin-top:120px;
+    font-size: 40px;
+}
+
+.choice {
+   color: #f59a93;
+   text-decoration: none;
+   decoration: none;
+}
+.choice:visited, .choice:link {
+   color: #f59a93;
+}
+
+/* modal background */
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.poem-uploadDate{
+	font-size:35px;
+	color:#ED8080;
+	text-align:center;
+	font-weight:bold;
+}
+
+.modal-content{
+	background-color: white;
+    box-sizing: border-box;
+    margin: 15% auto;
+    padding: 1%;
+    border: 1px solid #E86767;
+    width: 35%;
+    line-height: 35px;
+}
+
+.modal-close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.poem-title{
+	text-align:center;
+	color:#ED8080;
+	font-size:40px;
+	margin-top:30px;
+}
+
+.poem-contents{
+	margin:90px 20px 50px 20px;
+	color:#ED8080;
+	font-size:30px;
+}
+
+.countDiv{
+	float:right;
+	margin-right:20px;
+	font-size:20px;
+	color:#ED8080;
+}
+
+.modal-close:hover, .modal-close:focus{
+    color: #FF9999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.poem-memberPoet{
+	float:right;
+	margin:20px;
+	color:#FF9999;
+	font-size:25px;
+}
+
+.divCenter{
+    text-align: center;
+}
+
+.divRight{
+    text-align: right;
+}
+
+.poem-info{
+	margin: 3%;
+    background-color: transparent;  
+    border-style: solid;  
+    border-width: 3px;  
+    border-color: #F4DCDC; 
+    box-sizing: border-box;
+    outline: 0;
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.subDiv{
+	color:#FF9999;
+	font-size:20px;
+	text-align:center;
+}
+
+.poem-likeBtn{
+	display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 34px;
+    height: 34px;
+    background-color: transparent;  
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+    background-repeat: repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.poem-uploadDate{
+	text-align: center;
+}
+
+.poem-likeCount{
+	font-size:40px;
+	color:#FF9999;
+	
+}
